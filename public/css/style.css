@@ -1,0 +1,195 @@
+body{
+  background-color:#000011;
+}
+
+
+
+.texto-inicio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container-productos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+h1{
+    font-size: 28px;
+    font-family: 'Bungee', sans-serif;
+color: whitesmoke ;
+}
+.title{
+font-size: 32px;
+}
+.card{
+  margin: 30px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+.wpp-product{
+  font-family: 'Bungee', sans-serif;
+}
+.icon-wpp-2{
+  width: 60px;
+}
+.button-false {
+    display: flex;
+    flex-direction: column;
+    width: 305px;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+  }
+  
+  .button-false .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 284px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .button-false .overlap-group {
+    position: relative;
+    width: 176px;
+    height: 227px;
+    top: 28px;
+    left: 65px;
+  }
+  
+  .button-false .text {
+    position: absolute;
+    top: 101px;
+    left: 57px;
+    opacity: 0.5;
+    font-weight: 400;
+    color: #212322;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .button-false .frame-mockup {
+    position: absolute;
+    width: 176px;
+    height: 227px;
+    top: 0;
+    left: 0;
+  }
+  
+  .button-false .text-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin: 10px;
+  }
+  
+  .button-false .div-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .button-false .text-wrapper {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-weight: 700;
+    color: #212322;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .button-false .div {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .button-false .text-wrapper-2 {
+    position: relative;
+    flex: 1;
+    margin-top: -1px;
+    font-weight: 400;
+    color: #212322;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22px;
+    font-family: 'Oswald', sans-serif;
+  }
+nav{
+  font-family: 'Bungee', sans-serif;
+  background-color: #002056;
+  color: whitesmoke;
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  font-family: 'Bungee', sans-serif;
+  background-color: #002056;
+  color: whitesmoke;
+  margin-top: 100%;
+  font-size: 28px;
+  padding: 20px;
+  }
+.title{
+    color: whitesmoke;
+  }
+  .nav-link{
+    color: whitesmoke;
+  }
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+.redes-texto{
+  font-size: 24px;
+}
+  .icon-wpp{
+    width: 60px;
+  }
+  @media screen and (min-width:200px) and (max-width:768px) {
+              footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: space-around;
+              }
+              }
+          
+  
